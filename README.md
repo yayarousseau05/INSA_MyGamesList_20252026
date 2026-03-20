@@ -5,9 +5,7 @@
 - **Cours** : Programmation Mobile
 
 ## Calendrier du module
-- **26/01/2026** : ouverture des choix d'exposés sur Moodle (fin de journée)
-- **30/01/2026** : début du module
-- **09/02/2026** : fin des choix d'exposés (vous devez être incsrit pour le 09 au soir, 23:59 dernier délai)
+
 - **29/03/2026** : rendu du projet avant minuit (timestamp d'upload sur moodle faisant foi)
 - **03/04/2026** : rendu des slides des exposés avant 13:30 (timestamp d'upload sur Moodle faisant foi)
 - **03/04/2026** : exposés (tout le monde assiste à tous les exposés)
@@ -36,18 +34,13 @@ La notation inclue (non-exhaustif) :
 - votre compréhension du sujet
 - la tenue de la durée imposée
 - la qualité de l'exposé
+  
+## README
+Eléments non réalisés
+Eléments supplémentaires réalisés
+fonctionnalités
+outils techniques
+Améliorations possibles
 
-## Encadrants
-
-### Kilian Lamberdière
-LinkedIn : https://fr.linkedin.com/in/kilian-lamberdiere-63605a28/
-### Nicolas Charpentier
-LinkedIn : https://fr.linkedin.com/in/nicolas-c-4a4723141/
-### Jérôme Decouenne
-LinkedIn : https://fr.linkedin.com/in/j%C3%A9r%C3%B4me-decouenne-338a2767
-
-## Point d'attention sur l'utilisation d'IA
-
-Tout ce projet est réalisable en un seul prompt (ça a été testé).  
-Il n'y a aucun problème à ce que vous utilisiez une IA pour vous aider à saisir les concepts explorés durant ce module.  
-Le travail rendu, néanmoins, doit être le vôtre et non la génération d'une IA. Tout code rendu ayant été réalisé par IA occasionnera un malus pouvant aller jusqu'à porter la note à 0.
+Ce cours à pour but de découvrir la programation mobile Android, il consite en une dizaine de TP, pour fini avec un appliaction possedant une liste de jeux, les details de ceux ci, ainsi qu'une barre de recherche et une mise en favoris 
+Je n'ai pas réalisé le TP facultatif et le TP bonus
