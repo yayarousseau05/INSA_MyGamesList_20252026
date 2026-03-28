@@ -1,46 +1,24 @@
 # Projet Programmation Mobile - INSA 3INFO (2025/2026)
 
-## Détails du projet
+## Présentation
 
-- **Cours** : Programmation Mobile
+Ce cours a pour but de découvrir la programmation mobile Android. Il consiste en une dizaine de TP permettant de créer une application comprenant une liste de jeux, le détail de chacun d'eux, une barre de recherche ainsi qu'un système de mise en favoris.
 
-## Calendrier du module
+## Choix réalisés
 
-- **29/03/2026** : rendu du projet avant minuit (timestamp d'upload sur moodle faisant foi)
-- **03/04/2026** : rendu des slides des exposés avant 13:30 (timestamp d'upload sur Moodle faisant foi)
-- **03/04/2026** : exposés (tout le monde assiste à tous les exposés)
+Je n'ai pas effectué le TP facultatif ni le TP bonus. J'ai préféré consacrer ce temps à des améliorations visuelles plutôt qu'à l'ajout de nouvelles fonctionnalités.
 
-## Informations
+J'ai ainsi :
+- modifié la palette de couleurs de l'application et ajusté la transparence de certains éléments,
+- intégré 2 fonds d'écran personnalisés,
+- ajouté des GIFs animés (2 chats et une fleur de cerisier),
+- remplacé l'icône de l'application.
 
-### Projet
-Le projet compte pour ***16*** points sur 20.
-Si vous terminez les TP obligatoires du projet, vous vous assurez un 8/16, même si tous les cas ne sont pas pris en compte.  
-Le fichier README.md de votre projet doit contenir les bonus que vous avez réalisés, ainsi que vos noms au cas où vous auriez travaillé en binôme.
-La qualité de votre code, son architecture, la compilation, les warnings, les commits, les bonus... sont une partie des critères de notation.
+## Difficultés rencontrées
 
-Le livrable doit être une __archive__ uploadée sur Moodle.  
-Celle-ci doit être faite de telle manière qu'une fois désarchivée, le projet est ouvrable et lançable tel quel via Android Studio (ce point fait ***aussi*** partie de la note). L'archive doit porter le nom des personnes ayant participés au projet. Merci de ***NE PAS*** inclure le répertoire *build* dans vos archives.  
+- **Performance de l'émulateur** : mon PC avait beaucoup de mal à faire tourner l'API. Le problème a été résolu en passant au débogage sur mon téléphone
+- **Intégration des GIFs** : j'ai dû tester plusieurs bibliothèques avant d'en trouver une fonctionnelle. J'ai finalement opté pour `AnimatedImageDrawable`, bien que je n'aie pas réussi à identifier la cause des freezes occasionnels.
 
-La structure du projet qui vous a servi de base peut vous servir d'exemple au besoin.
+## Améliorations envisagées
 
-### Exposé
-
-L'exposé compte pour ***4*** points sur 20.
-Celui-ci dure 10 minutes au total. 7 minutes d'exposés et 3 minutes de question.  
-Vous ***NE POURREZ PAS*** durer plus de 7 minutes car le créneau horaire (4 heures) est juste ce qu'il faut.
-Merci néanmoins de numérotez les slides / pages / étapes de votre présentation afin de faciliter les questions.
-
-La notation inclue (non-exhaustif) :
-- votre compréhension du sujet
-- la tenue de la durée imposée
-- la qualité de l'exposé
-  
-## README
-Eléments non réalisés
-Eléments supplémentaires réalisés
-fonctionnalités
-outils techniques
-Améliorations possibles
-
-Ce cours à pour but de découvrir la programation mobile Android, il consite en une dizaine de TP, pour fini avec un appliaction possedant une liste de jeux, les details de ceux ci, ainsi qu'une barre de recherche et une mise en favoris 
-Je n'ai pas réalisé le TP facultatif et le TP bonus
+Des pistes d'amélioration identifiées seraient d'ajouter un accès rapide aux favoris, de mettre en place une pagination, et d'améliorer l'architecture globale de l'application.
